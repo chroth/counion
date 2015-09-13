@@ -1,0 +1,29 @@
+{
+  "name": "counion",
+  "version": "0.0.0",
+  "description": "Creates unions of collections",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec -b --recursive test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chroth/counion"
+  },
+  "keywords": [
+    "Union"
+  ],
+  "author": "Christofer Roth <christofer@dorian.se> (http://www.dorian.se/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chroth/counion/issues"
+  },
+  "homepage": "https://github.com/chroth/counion",
+  "devDependencies": {
+    "mocha": "^2.3.2",
+    "should": "^7.1.0"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
